@@ -1,0 +1,4 @@
+Тут находится содержимое файла file.txt:
+stroka 2
+stroka 3
+stroka 4
