@@ -8,7 +8,7 @@ $f = fopen($file_name, $mode);// fopen открывает файл 'file.txt' ('
     if($mode == 'r') {
         $out = [];
         while (!feof($f)) {//feof - Проверяет, достигнут ли конец файла
-            $line = fgets($f, 1024);//fgets — Читает строку из файла
+            $line = fgets($f, 1024);//fgets — Читает строку из файла (перебирает содержимое файла)
             $out[]= $line . '<br>';
         };
         $out = implode('',$out);
